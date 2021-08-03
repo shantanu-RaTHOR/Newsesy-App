@@ -70,4 +70,11 @@
     ├── MainActivity.kt                 # MainActivity
     ├── SplashScreen.kt                 # SplashScreen
     
+    
+## API key 🔑
+You need to provide API key to fetch the news. Currently the news is fetched from [NewsAPI](https://newsapi.org/)
+
+- Generate an API key from [NewsAPI](https://newsapi.org/)
+- Add the API key in util->contants file
+- Build the app     
 
