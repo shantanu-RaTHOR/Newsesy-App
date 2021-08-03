@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.newsesy.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_explore"
+        android:name="com.example.newsesy.ui.explore.ExploreFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_explore" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.newsesy.ui.search.SearchFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/navigation_saved"
+        android:name="com.example.newsesy.ui.saved.Saved"
+        android:label="Saved"
+        tools:layout="@layout/fragment_save"/>
+
+    <fragment
+        android:id="@+id/info"
+        android:name="com.example.newsesy.ui.info.info"
+        android:label="Info"
+        tools:layout="@layout/fragment_info"/>
+</navigation>

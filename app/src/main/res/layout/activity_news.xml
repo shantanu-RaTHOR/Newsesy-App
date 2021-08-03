@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="5dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginRight="1dp"
+    android:layout_marginLeft="1dp"
+    tools:context=".ui.search.SearchFragment">
+    <ImageView
+        android:id="@+id/close_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_baseline_close_24"
+        />
+
+    <ImageView
+        android:id="@+id/newsimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="-30dp"
+        android:src="@drawable/app_icon"
+        />
+    <TextView
+        android:id="@+id/newstitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/newsdescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18dp"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/newscontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="16dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"
+        />
+    <Button
+        android:id="@+id/save_article"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/visit_button"
+        android:textColor="@color/white"
+        android:text="SAVE ARTICLE"
+        android:layout_gravity="center" />
+    <Button
+        android:id="@+id/visit_article"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/visit_button"
+        android:textColor="@color/white"
+        android:text="VISIT ARTICLE"
+        android:layout_gravity="center" />
+</LinearLayout>
+</ScrollView>
+

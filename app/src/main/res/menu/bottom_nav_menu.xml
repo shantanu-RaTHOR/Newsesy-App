@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_breakingnews"
+        android:title="Top News" />
+    <item
+        android:id="@+id/navigation_explore"
+        android:icon="@drawable/ic_baseline_explore_24"
+        android:title="Explore" />
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search" />
+    <item
+        android:id="@+id/navigation_saved"
+        android:icon="@drawable/ic_baseline_save_24"
+        android:title="Saved" />
+    <item
+        android:id="@+id/info"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="ABOUT" />
+</menu>

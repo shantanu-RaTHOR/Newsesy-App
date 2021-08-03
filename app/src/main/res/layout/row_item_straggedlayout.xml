@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="15dp"
+    android:layout_marginRight="7dp"
+    android:layout_marginLeft="7dp"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardCornerRadius="5dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="#ffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/source2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text=""
+                android:textSize="10dp"
+                 />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/app_icon"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                app:shapeAppearanceOverlay="@style/circular"/>
+
+            <TextView
+                android:id="@+id/news2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:clickable="true"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:text="TextView" />
+
+
+            <TextView
+                android:id="@+id/time2"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="6dp"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
