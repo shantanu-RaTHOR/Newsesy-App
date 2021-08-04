@@ -13,7 +13,7 @@
 <li> It also shows news category wise eg-movies,politics,health etc </li>
 </ul>
 
-**Technology Stack Used**: Kotlin,Coroutines,MVVM architecture,Room,ViewModel,Live data,Retrofit,Gson,Navigation graph
+**Technology Stack Used**: Kotlin,Coroutines,MVVM architecture,Room,ViewModel,Live data,Retrofit,Gson,Navigation graph,Glide
 
 ## 📸 Screenshots
 
